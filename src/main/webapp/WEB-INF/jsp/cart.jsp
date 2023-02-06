@@ -30,6 +30,7 @@
         <h2 style="margin-top: 20px;">Your Cart Item</h2>
         <h6 style="opacity: 0.4; color: black; margin-bottom: 20px;">Please Check Carefully Before Complete Your
             Order!</h6>
+            <p style="color:blue">${message}</p>
         <div class="col-xs-12 col-sm-12 col-md-10">
             <c:if test="${not empty cartItem}">
                 <div class="rows">
